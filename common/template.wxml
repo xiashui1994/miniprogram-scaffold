@@ -1,0 +1,14 @@
+<!--  这里为模版的wxml  -->
+<!-- 使用说明：
+    简介：这里是公用的模版，负责使用导入的数据，展现页面的样式。
+    描述：当页面中需要该模版的时候可以通过下述方式引入，js之类的操作逻辑，需要在被引入的页面里写。
+    使用方式：
+        页面的wxml引入：
+          <import src="../../common/template.wxml" />
+          <template wx:if = "{{show_maskLayer}}" is="mask_layer"></template>  
+            // example: 蒙层引入，用is属性对应该文件里的name属性，从而判断使用的具体template
+        app.wxss增加：
+          @import 'common/template.wxss';
+            // 为方便起见，将样式引入到公共里
+}
+ -->

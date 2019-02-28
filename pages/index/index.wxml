@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="hello">欢迎使用</view>
+<!-- 认证组件 -->
+<authorization id = "authorization" bindAuthorization="indexStart"/>
