@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "wx08ee45635a7a4674",
-	"projectname": "miniprogram-scaffold",
+	"appid": "{{appid}}",
+	"projectname": "{{projectname}}",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
